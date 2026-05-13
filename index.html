@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindSpark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</div>
+
+    <div class="background-overlay"></div>
+    <main class="app-container">
+        <div class="scene">
+            <div class="card" id="quote-card">
+                <div class="card-face card-front">
+                    <div class="offline-illustration">
+                    </div>
+                    <blockquote id="quote-text">Click "Start" to begin your journey!</blockquote>
+                    <cite for id="quote-author"></cite>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="timer-settings">
+                <label for="timer-select">Interval (s):</label>
+                <select id="timer-select">
+                    <option value="2000">2s</option>
+                    <option value="5000">5s</option>
+                    <option value="10000" selected>10s</option>
+                    <option value="30000">30s</option>
+                </select>
+            </div>
+            <button id="toggle-btn" class="btn-primary">Start Timer</button>
+        </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
